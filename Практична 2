@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Функція для знаходження НСД двох чисел
 int gcd(int a, int b) {
     while (b != 0) {
         int t = b;
@@ -10,7 +9,6 @@ int gcd(int a, int b) {
     return a;
 }
 
-// Функція для знаходження НСК двох чисел
 int lcm(int a, int b) {
     return (a * b) / gcd(a, b);
 }
